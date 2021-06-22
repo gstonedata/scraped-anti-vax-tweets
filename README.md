@@ -1,11 +1,11 @@
 # scraped-anti-vax-tweets
 
 This project sets out to highlight areas in Australia with potential vaccination hesitancy issues;
-this is acheived by scraping geolocated anti vax tweets from across the country.
+this is achieved by scraping geolocated anti vax tweets from across the country.
 
 Less than 5% of tweets are geotagged, these tweets can be scraped with the Twitter API, which is however known for server disconnection problems.
 
-This projects sets out to scrape all tweets containing given keywords and their corresponding geocoded data.
+All tweets containing given keywords and their corresponding geocoded data are scraped by TWINT.
 TWINT is used, an alternative to the Twitter API, that utilises geocoded searches. 
 Whilst not precise, these searches allow twitter users to view tweets from within a specified distance of a particular location,
 and are considered estimates.
