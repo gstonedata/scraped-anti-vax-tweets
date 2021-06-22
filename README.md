@@ -20,6 +20,7 @@ Circles roughly fitting the hexagons are created and used by TWINT to scrape twe
 
 TWINT attempts to get around the problem of server disconnection while scraping tweets by automating retries,
 this is visible through ongoing updates during the scraping process.
+https://github.com/twintproject/twint
 
 Tweets containing the terms 'antivax' and 'anti vax' were scraped from 1/1/21 to 20/6/21.
 
